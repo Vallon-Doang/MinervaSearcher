@@ -1,0 +1,28 @@
+# Minerva Searcher
+Hi, seems like you've stumbled upon this small tool I made.
+
+This is a simple bash script that I created in order to simplify my process of retrieving and downloading games on Minerva Archive.
+Since the torrent was a multifile and it has thousands of games.
+
+---
+
+## How to use
+1. Download Aria2c
+```
+Sudo apt install aria2
+```
+2. Download the Torrent file and place it on the same folder of the .sh
+3. run the script!
+```
+chmod +x MinervaSearch.sh
+./MinervaSearch.sh
+```
+
+I have only tried to use this for Minerva Torrent for PSP, I'm not sure if it will work on general Torrent multifile, but assume it doesn't.
+
+### Disclaimer
+
+This tool is a general-purpose command-line utility built for managing, searching, and selectively downloading multi-file `.torrent` archives via `aria2c`. 
+
+- **No Hosting or Redistribution:** This repository does not host, index, link to, or distribute any copyrighted files, torrents, or external databases.
+- **User Responsibility:** Users are solely responsible for ensuring that their use of this software complies with local laws and the intellectual property rights of content owners. The developer assumes no liability for any misuse of this software.
