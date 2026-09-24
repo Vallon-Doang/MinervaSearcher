@@ -1,0 +1,13 @@
+# Ignore everything by default
+*
+
+# Allow necessary project files
+!.gitignore
+!README.md
+!LICENSE
+!*.sh
+
+# Explicitly ignore common clutter & downloads just in case
+*.torrent
+Downloads/
+.DS_Store
